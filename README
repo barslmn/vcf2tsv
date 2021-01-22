@@ -1,0 +1,9 @@
+description:
+	Convert vcf to tsv file. Parses info, genotype fields and "CSQ" field from VEP.
+	Note: makes new line for each transcript from CSQ.
+
+installation:
+	sudo make install
+
+usage:
+	vcf2tsv your.vcf
